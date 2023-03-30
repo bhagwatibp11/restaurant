@@ -1,0 +1,48 @@
+/* Css for phone  */
+/* navigation  */
+
+#nav{
+    flex-direction: column;
+}
+
+#nav ul li a{
+    font-size: 1rem;
+    padding: 0px 3px;
+}
+
+/* home  */
+#home{
+    height:200px;
+}
+#home p{
+    font-size: 13px;
+}
+#home::before{
+    height: 278px;
+}
+
+/* services */
+
+#services{
+    flex-direction: column;
+    
+}
+
+/* client */
+#client{
+    flex-wrap: wrap;
+}
+
+/* contact */
+#contact{
+
+}
+#contact-box form{
+    width: 70%;
+    }
+
+/* utility class */
+.heading{
+    font-size: 24px;
+}
+
